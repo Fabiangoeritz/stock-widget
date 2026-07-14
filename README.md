@@ -98,6 +98,12 @@ Examples:
 | VTI       | `VTI`     |
 | S&P 500   | `^GSPC`   |
 
+Hint: Yahoo Finance indices often start with `^`. When using Windows Command Prompt, the caret (`^`) is a special escape character. To pass it correctly to the script, escape it by adding another caret:
+
+```bash
+pythonw widget.py ^^GDAXIP
+pythonw widget.py ^^GSPC
+```
 ---
 
 ## Project Structure
